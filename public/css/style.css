@@ -1,0 +1,204 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    color: blueviolet;
+    padding: 0%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    flex: 1;
+}
+h1{
+    color: brown;
+    font-weight: bold;
+
+}
+
+h3{
+    color: blue;
+    font-weight: 500;
+}
+
+button{
+    background-color: darkmagenta;
+    color: white;
+}
+
+a{
+    color: darkseagreen;
+}
+
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+
+.f-info-links a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-links, .f-info-socials, f-info-brand{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials, .f-info-socials i{
+    font-size: 1.3rem;
+    margin-right: 0.3rem;
+
+}
+footer {
+    background-color:floralwhite;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+
+}
+
+.f-info{
+    height: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+
+}
+
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+ padding: 0 !important;
+
+}
+
+.card-text p{
+    font-weight: 400;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay :hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+.blue{
+    background-color: darkmagenta !important;
+    border: none !important;
+}
+
+.show-img{
+    height: 50vh;
+}
+
+.btns{
+    display: flex;
+}
+
+.review-title{
+    color: darkmagenta !important;
+}
+
+#filters{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.filter{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-right: 2rem;
+    gap: 1.5rem;
+    opacity: 0.8;
+}
+.filter:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.fire{
+    font-size: x-large;
+    align-self: center;
+    align-items: center;
+   
+}
+
+#filters a{
+    text-decoration: none;
+}
+
+.tax-switch{
+  margin-left: 3rem;
+    font-size: large;
+    border: 1px solid grey;
+    border-radius: 0.7rem;
+    height: 3rem;
+    padding: 0.5rem;
+    align-items: center;
+    display: flex;
+}
+
+.tax-info{
+    display: none;
+    
+}
+
+.btn-search{
+    background-color: darkmagenta;
+    color: white;
+    border-radius: 0.7rem;
+    height: 3rem;
+    width: 8rem;
+}
+
+.btn-search:hover{
+    background-color: darkmagenta;
+    color: white;
+}
+
+.btn-search i{
+    display: inline;
+    margin-right: 0.6rem;
+    color: white;
+}
+
+.search-input{
+    border-radius: 0.7rem !important;
+    width: 400px !important;
+    height: 3rem !important;
+}
