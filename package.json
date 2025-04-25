@@ -1,4 +1,9 @@
 {
+  "scripts": {
+  "start": "node app.js",
+  "install": "npm install --legacy-peer-deps"
+},
+
   "engines":{
     "node" : "22.14.0"
 
