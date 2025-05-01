@@ -1,19 +1,4 @@
 {
-<<<<<<< HEAD
-  "scripts": {
-  "start": "node app.js",
-  "install": "npm install --legacy-peer-deps"
-},
-  
-
-  "engines":{
-    "node" : "22.14.0"
-
-=======
-  "engines": {
-    "node": "22.14.0"
->>>>>>> e79f808 (Update package.json with correct dependencies)
-  },
   "name": "major-project1",
   "version": "1.0.0",
   "description": "",
@@ -21,7 +6,12 @@
   "author": "",
   "type": "commonjs",
   "main": "index.js",
+  "engines": {
+    "node": "22.14.0"
+  },
   "scripts": {
+    "start": "node app.js",
+    "install": "npm install --legacy-peer-deps",
     "test": "jest"
   },
   "dependencies": {
