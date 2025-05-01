@@ -1,9 +1,13 @@
 {
   "name": "major-project1",
   "version": "1.0.0",
-  "description": "",
+  "description": "A travel listing web app with Node.js, Express, and MongoDB",
   "license": "ISC",
-  "author": "",
+  "author": "Kirti Baliyan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/k08irti/Major_Project1"
+  },
   "type": "commonjs",
   "main": "index.js",
   "engines": {
@@ -36,4 +40,5 @@
   "devDependencies": {
     "jest": "^29.7.0"
   }
+
 }
